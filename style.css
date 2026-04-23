@@ -1,0 +1,255 @@
+/* RESET */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f3f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR (NEW - GLOBAL HEADER) */
+.navbar {
+    background-color: #0a66c2;
+    color: white;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CONTAINER */
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* HEADING */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* LABELS */
+label {
+    font-weight: 600;
+    color: #444;
+    display: block;
+    margin-top: 10px;
+}
+
+/* INPUTS */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input:focus, textarea:focus {
+    border-color: #0a66c2;
+    outline: none;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #004182;
+}
+
+/* LINKS */
+a {
+    color: #0a66c2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* SUCCESS MESSAGE */
+.success-msg {
+    background: #e6f4ea;
+    color: #137333;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* ================= TOP BAR ================= */
+
+.top-bar {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* PROFILE BUTTON */
+.profile-btn {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: #0a66c2;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.profile-btn:hover {
+    background: #004182;
+}
+
+/* NOTIFICATION BUTTON */
+.notify-btn {
+    background: #ff9800;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* USER INFO */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* AVATAR */
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* USERNAME */
+.username {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* ================= JOB LIST ================= */
+
+.page-title {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+/* GRID */
+.jobs-container {
+    width: 85%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* JOB CARD */
+.job-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: 0.2s;
+}
+
+.job-card:hover {
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.1);
+}
+
+/* JOB TITLE */
+.job-card h3 {
+    color: #0a66c2;
+    margin-bottom: 8px;
+}
+
+/* APPLY BUTTON */
+.apply-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #0a66c2;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.apply-btn:hover {
+    background: #004182;
+}
+
+/* ACCEPT / REJECT */
+.accept-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reject-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* LOGOUT */
+.logout-btn {
+    display: block;
+    text-align: center;
+    background: #dc3545;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.logout-btn:hover {
+    background: #a71d2a;
+}
+
+/* LOGIN LINK */
+.login-link {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+}
