@@ -18,4 +18,4 @@ This is a Job Portal web application developed using PHP and MySQL.
 Deployed on AWS EC2.
 
 ## URL
-http://your-public-ip/job-portal/
+http://13.53.42.93/job-portal/
